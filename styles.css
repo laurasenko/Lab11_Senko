@@ -1,0 +1,93 @@
+html {
+background-image: url("catBackground.jpg");
+}
+
+body, html {
+  height: 100%;
+    font-family: "Courier New", Courier, monospace;
+    padding: 0 80px;
+
+
+    z-index: -100000;
+    color: red;
+}
+
+img {
+  width: 33%;
+  height: 33%;
+  border-radius: 50%;
+  margin: auto;
+  display: block;
+}
+
+img:hover {
+  border-radius: 0%;
+  z-index: -3;
+  transform: rotate(-10deg);
+  width: 50%;
+  height: 50%;
+}
+
+
+h1{
+  border-bottom: 10px ridge black;
+  display: block;
+  margin: auto;
+  background-color: white;
+  background-color: red;
+  background: -webkit-linear-gradient(right, red, black);
+  background: -o-linear-gradient(left, red, black);
+  background: -moz-linear-gradient(left, red, black);
+  background: linear-gradient(left, red, black);
+  color: white;
+  text-align: center;
+  line-height: center;
+  font-weight: bold;
+}
+
+h2 {
+    color:
+    font-style: italic;
+    font-size: 120%;
+}
+
+
+.post {
+    margin: auto;
+    padding: 0 0 5px;
+    background-color: red;
+    background: -webkit-linear-gradient(left, red, black);
+    background: -o-linear-gradient(right, red, black);
+    background: -moz-linear-gradient(right, red, black);
+    background: linear-gradient(right, red, black);
+
+    color: white;
+    border: 5px ridge white;
+    z-index: -3;
+    width: 70%;
+    text-align: center;
+}
+
+
+.author {
+    margin-right: 1em;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: white;
+    color: red;
+    border-radius: 20%;
+    font-size: 150%;
+}
+
+a:visited {
+  color: black;
+}
